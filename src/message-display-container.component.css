@@ -1,0 +1,40 @@
+#message-display-container {
+  position: fixed;
+  z-index: 999999;
+  /* Positioning */
+}
+
+#message-display-container.message-position-top-left {
+  top: 12px;
+  left: 12px;
+}
+#message-display-container.message-position-top-right {
+  top: 12px;
+  right: 12px;
+}
+#message-display-container.message-position-bottom-right {
+  bottom: 12px;
+  right: 12px;
+}
+#message-display-container.message-position-bottom-left {
+  bottom: 12px;
+  left: 12px;
+}
+#message-display-container.message-position-top-center {
+  top: 12px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+#message-display-container.message-position-bottom-center {
+  bottom: 12px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+#message-display-container.message-position-center-center {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
